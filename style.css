@@ -399,12 +399,13 @@ header{
 		height:25px;
 		background: url(images/icon-hamburger.svg) center/cover no-repeat;
 		cursor:pointer;
-		z-index: 10000;
+		z-index: 1000000;
 		transition:.4s ease;
 	}
 	.hamburger.active{
 		transform:rotate(90deg);
 		background:url(images/icon-close.svg) center/cover no-repeat;
+		z-index:1000000;
 	}
 	.wrapper{
 		display:none;
